@@ -56,9 +56,15 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'github',
+            name: 'repo',
             message: 'What is the link to the repo of this project?'
         },
+        {
+            type: 'input',
+            name: 'deployed',
+            message: 'What is the link to the deployed version of this project?'
+        },
+
 
     ])
 }
@@ -71,6 +77,10 @@ questions()
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 const fs = require('fs')
+const generateReadme = () => {
+    return `
+    `
+}
 
 // TODO: Create a function to initialize app
 //function init() {}
