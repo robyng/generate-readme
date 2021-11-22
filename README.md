@@ -6,6 +6,8 @@ This node app helps speed up the creation of README.md files for your projects. 
 
 You can use this app for all new projects that would benefit from an informational README.md file. Download Generate README File and then write node index on your command line to start the prompts. View your README.md file in the output folder.
 
+Note: This README.md file was generated using this app.
+
 ### Links
 Repository at https://github.com/robyng/generate-readme
 
@@ -14,6 +16,8 @@ Clone the files from this respository.
 CD into root of Generate-README folder
 From command line type 'npm install inquirer'. 
 Then type 'node index' to start the README prompts.
+
+Watch walkthrough: https://watch.screencastify.com/v/RUPLvstEEY4SqOGYZ2Nf
 
 ### Credits
 Robyn Graham

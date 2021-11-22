@@ -12,7 +12,7 @@ const questions = () => {
                 if (githubInput) {
                     return true;
                 } else {
-                    console.log ('Github username required');
+
                     return false;
                 }
             }
@@ -130,7 +130,6 @@ questions()
 
 const init = (answers) => {
    let licenseText = ''
-   console.log(answers.license)
    switch (answers.license) {
        case 'MIT':
        licenseText = 'The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.';
@@ -146,8 +145,7 @@ const init = (answers) => {
        break;
        default: licenseText = 'Copyright Protected'
    }
-return `
-# ${answers.projectName} 
+return `# ${answers.projectName} 
 ![Packagist License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=blue)
 
 ## About 
@@ -179,9 +177,5 @@ Have any questions?
 
 Please email us at ${answers.email}
 
-${answers.issues}
-
-`;
-
-    
+${answers.issues}`;    
 }
