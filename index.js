@@ -175,7 +175,8 @@ ${licenseText}
 ### Questions and Issues
 Github profile: https://github.com/${answers.github}
 
-Have any questions? 
+Have any questions?
+
 Please email us at ${answers.email}
 
 ${answers.issues}
