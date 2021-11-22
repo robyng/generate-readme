@@ -10,7 +10,10 @@ You can use this app for all new projects that would benefit from an information
 Repository at https://github.com/robyng/generate-readme
 
 ### Installation
-Download the files from this respository and use your terminal to start the questions. Type 'node index' to start the README prompts.
+Clone the files from this respository.
+CD into root of Generate-README folder
+From command line type 'npm install inquirer'. 
+Then type 'node index' to start the README prompts.
 
 ### Credits
 Robyn Graham
