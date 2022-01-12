@@ -1,33 +1,42 @@
-# Generate Team Profiles 
-![Packagist License](https://img.shields.io/static/v1?label=License&message=APACHE 2.0&color=blue)
+# Readme Generator 
+![Packagist License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
+
+
+## Table of Contents
+* [About](#about)
+* [Links](#links)
+* [Installation](#installation)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
 
 ## About 
-This app helps managers of an engineering team display their team online. It can track their email, id, office number, school, and  github username. It can sort by Manager, Engineer, or Intern. 
+This generates a readme for you.
 
-Download the repos and install inquirer. Do npm install inquirer on command line. Then do node index to start quesitons. Your new file will be index.html in the dist folder.
+Answer the questions
 
 ### Links
 
-Deployed at N/A
+Deployed at test
 
-Repository at https://github.com/robyng/team-generate-profiles
+Repository at test
 
 ### Installation
-Download at https://github.com/robyng/team-generate-profiles
+npm install, then npm index
 
 ### Credits
-Robyn Graham
+Robyn
 
 ### License
-APACHE 2.0
-The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development.
+MIT
+The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
 
-### Questions and Issues
+### Questions
 Github profile: https://github.com/robyng
 
 Have any questions?
 
-Please email us at robyngraham01@gmail.com
+Please email us at robyn@sitereworks.com
 
-Report issues at https://github.com/robyng/team-generate-profiles/issues
+contact me at robyn@sitereworks.com

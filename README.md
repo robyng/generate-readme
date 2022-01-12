@@ -1,6 +1,14 @@
 # Generate README File 
 ![Packagist License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
 
+## Table of Contents
+* [About](#about)
+* [Links](#links)
+* [Installation](#installation)
+* [Credits](#credits)
+* [License](#license)
+* [Questions and Issues](#questions-and-issues)
+
 ## About 
 This node app helps speed up the creation of README.md files for your projects. Answer questions from the command line about your project and have the answers generate in a new README.md file. 
 
