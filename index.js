@@ -148,6 +148,15 @@ const init = (answers) => {
 return `# ${answers.projectName} 
 ![Packagist License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=blue)
 
+
+## Table of Contents
+* [About](#about)
+* [Links](#links)
+* [Installation](#installation)
+* [Credits](#credits)
+* [License](#license)
+* [Questions](#questions)
+
 ## About 
 ${answers.description}
 
@@ -170,7 +179,7 @@ ${answers.license}
 ${licenseText}
 
 
-### Questions and Issues
+### Questions
 Github profile: https://github.com/${answers.github}
 
 Have any questions?

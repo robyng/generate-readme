@@ -13,7 +13,7 @@ Repository at https://github.com/robyng/generate-readme
 
 ### Installation
 Clone the files from this respository.
-CD into root of Generate-README folder
+CD into root of Generate-README folder.
 From command line type 'npm install inquirer'. 
 Then type 'node index' to start the README prompts.
 
