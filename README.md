@@ -2,13 +2,12 @@
 ![Packagist License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
 
 ## Table of Contents
-- [Generate README File](#generate-readme-file)
-  - [Table of Contents](#table-of-contents)
+
   - [About](#about)
-    - [Installation](#installation)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Questions and Issues](#questions-and-issues)
+  - [Installation](#installation)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Questions and Issues](#questions-and-issues)
 
 ## About 
 This node application helps you write README.md files FASTER. 
@@ -23,7 +22,7 @@ View your newly generated README.md file in the output folder.
 View a walkthrough of how this app can be used:
 https://watch.screencastify.com/v/RUPLvstEEY4SqOGYZ2Nf
 
-### Installation
+## Installation
 Clone the files from this respository https://github.com/robyng/generate-readme-fast
 CD into root of Generate-README folder.
 In your terminal type:
@@ -36,15 +35,15 @@ Then type:
      
 This will start the application prompts.
 
-### Credits
+## Credits
 Robyn Graham
 
-### License
+## License
 MIT
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
 
-### Questions and Issues
+## Questions and Issues
 Github profile: https://github.com/robyng
 
 Have any questions?
