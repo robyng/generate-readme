@@ -20,42 +20,42 @@ const init = (answers) => {
 
  ## Description 
  ${answers.description}
-
- Deployed at ${answers.deployed}
+ 
+ Repository at ${answers.repo}
  
  ## Table of Contents
  * [Installation](#installation)
- * [Usage](#Usage)
- * [Credits](#credits)
+ * [Usage](#usage)
+ * [Contributors and Credits](#contributors-and-credits)
  * [License](#license)
+ * [Tests](#tests)
  * [Questions](#questions)
  
 
  
- Repository at ${answers.repo}
- 
- ### Installation
+ ## Installation
  ${answers.install}
  
  ## Usage
  ${answers.usage}
 
- ### Credits
- ${answers.contributers}
- 
  ### License
  ${answers.license}
  ${licenseText}
+
+ ## Contributors and Credits
+ ${answers.contribution}
  
+ ${answers.contributers}
  
- ### Questions
- Github profile: https://github.com/${answers.github}
+ ## Tests
+ ${answers.tests}
  
- Have any questions?
+## Questions
+You may submit a public question to the reposiotry here: https://github.com/${answers.github}/issues
  
- Please email us at ${answers.email}
- 
- ${answers.issues}`;    
+Or you can email us directly at ${answers.email}`;    
+
  };
 
  module.exports = init;

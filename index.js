@@ -79,11 +79,6 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'issues',
-            message: 'How do you report issues?'
-        },
-        {
-            type: 'input',
             name: 'email',
             message: 'What email should people contact you at? (Required)',
             validate: emailInput => {
@@ -110,14 +105,40 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'repo',
-            message: 'What is the link to the repo of this project?'
+            name: 'contribution',
+            message: 'Please provide instructions on how to become a contributor. (Required)',
+            validate: contributerInput => {
+                if (contributerInput) {
+                    return true;
+                } else {
+                    console.log ('Contribution instructions required');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
-            name: 'deployed',
-            message: 'What is the link to the deployed version of this project?'
+            name: 'tests',
+            message: 'What the intructions for runing tests? (Required)',
+            validate: testsInput => {
+                if (testsInput) {
+                    return true;
+                } else {
+                    console.log ('Test instructions required');
+                    return false;
+                }
+            }
         },
+        {
+            type: 'input',
+            name: 'repo',
+            message: 'What is the link to the repo of this project?'
+        },
+        // {
+        //     type: 'input',
+        //     name: 'deployed',
+        //     message: 'What is the link to the deployed version of this project?'
+        // },
 
 
     ])
