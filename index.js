@@ -34,7 +34,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'Describe your app. What does it do? (Required)',
+            message: 'Describe your app. What problem does it solve? (Required)',
             validate: descriptionInput => {
                 if (descriptionInput) {
                     return true;
@@ -43,11 +43,6 @@ const questions = () => {
                     return false;
                 }
             }
-        },
-        {
-            type: 'input',
-            name: 'usage',
-            message: 'How do you use this app?'
         },
         {
             type: 'input',

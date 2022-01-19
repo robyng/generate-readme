@@ -20,17 +20,15 @@ const init = (answers) => {
  
  
  ## Table of Contents
- * [About](#about)
+ * [Description](#description)
  * [Links](#links)
  * [Installation](#installation)
  * [Credits](#credits)
  * [License](#license)
  * [Questions](#questions)
  
- ## About 
+ ## Description 
  ${answers.description}
- 
- ${answers.usage}
  
  ### Links
  
