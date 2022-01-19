@@ -1,10 +1,10 @@
-# dd 
- [![Packagist License](https://img.shields.io/static/v1?label=License&message=APACHE2.0&color=blue)](#license)
+# Generate Fast Readme 
+ [![Packagist License](https://img.shields.io/static/v1?label=License&message=GPL3.0&color=blue)](#license)
 
  ## Description 
- dd
+ Make writing readme.md files faster.
  
- Repository at dd
+ Repository at https://github.com/robyng/generate-readme-fast
  
  ## Table of Contents
  * [Installation](#installation)
@@ -17,24 +17,24 @@
 
  
  ## Installation
- d
+ clone the repo. npm install
  
  ## Usage
- d
+ node index
 
  ### License
- APACHE2.0
- The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development.
+ GPL3.0
+ The GNU General Public License is a free, copyleft license for software and other kinds of works.
 
  ## Contributors and Credits
- dd
+ Report issues to our repo.
  
- dd
+ Robyn
  
  ## Tests
- dd
+ npm test
  
 ## Questions
-You may submit a public question to the reposiotry here: https://github.com/dd/issues
+You may submit a public question to the reposiotry here: https://github.com/robyng/issues
  
-Or you can email us directly at dd
+Or you can email us directly at robyn@sitereworks.com
