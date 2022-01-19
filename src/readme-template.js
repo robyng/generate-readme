@@ -16,7 +16,7 @@ const init = (answers) => {
         default: licenseText = 'Copyright Protected'
     }
  return `# ${answers.projectName} 
- ![Packagist License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=blue)
+ [![Packagist License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=blue)](#license)
 
  ## Description 
  ${answers.description}
