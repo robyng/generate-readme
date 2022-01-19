@@ -74,7 +74,8 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'What license does this app use? (Default is None)',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            //remove spaces between words to not cause issue in Badge
+            choices: ['MIT', 'APACHE2.0', 'GPL3.0', 'BSD3', 'None'], 
             default: 'None'
         },
         {
@@ -134,16 +135,11 @@ const questions = () => {
             name: 'repo',
             message: 'What is the link to the repo of this project?'
         },
-        // {
-        //     type: 'input',
-        //     name: 'deployed',
-        //     message: 'What is the link to the deployed version of this project?'
-        // },
 
 
     ])
 
-}
+};
 
 
 
@@ -151,7 +147,7 @@ questions()
 .then(answers => {
     fs.writeFile('output/README.md', init(answers), err => {
         if (err) throw err;
-        console.log('README file is complete! Checkout README.md in the output folder to see your changes.')
+        console.log('README file is complete! Checkout README.md in the output folder to see your new file!')
     });
 
 

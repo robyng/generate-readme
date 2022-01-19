@@ -2,12 +2,13 @@
 ![Packagist License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)
 
 ## Table of Contents
-* [About](#about)
-* [Links](#links)
-* [Installation](#installation)
-* [Credits](#credits)
-* [License](#license)
-* [Questions and Issues](#questions-and-issues)
+- [Generate README File](#generate-readme-file)
+  - [Table of Contents](#table-of-contents)
+  - [About](#about)
+    - [Installation](#installation)
+    - [Credits](#credits)
+    - [License](#license)
+    - [Questions and Issues](#questions-and-issues)
 
 ## About 
 This node application helps you write README.md files FASTER. 
@@ -31,11 +32,9 @@ In your terminal type:
 
 Then type:
 
-     'node index' 
+     node index
      
 This will start the application prompts.
-
-
 
 ### Credits
 Robyn Graham

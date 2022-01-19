@@ -1,14 +1,14 @@
-# Mark Down Generator 
- ![Packagist License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue)[link](#licence)
+# dd 
+ [![Packagist License](https://img.shields.io/static/v1?label=License&message=APACHE2.0&color=blue)](#license)
 
  ## Description 
- Solves the issue of saving time for you when you have to write a readme.
+ dd
  
- Repository at https://github.com/robyng/generate-readme
+ Repository at dd
  
  ## Table of Contents
  * [Installation](#installation)
- * [Usage](#Usage)
+ * [Usage](#usage)
  * [Contributors and Credits](#contributors-and-credits)
  * [License](#license)
  * [Tests](#tests)
@@ -17,24 +17,24 @@
 
  
  ## Installation
- Clone from the readme link. 
+ d
  
  ## Usage
- after npm init write node index in your terminal.
+ d
 
- ## License
- MIT
- The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
+ ### License
+ APACHE2.0
+ The 2.0 version of the Apache License, approved by the ASF in 2004, helps us achieve our goal of providing reliable and long-lived software products through collaborative, open-source software development.
 
  ## Contributors and Credits
- Suggest an improvement in our issues section and do a pull request.
+ dd
  
- Robyn
+ dd
  
  ## Tests
- npm jest
+ dd
  
- ## Questions
- You may submit a public question to the reposiotry here: https://github.com/robyng/issues
+## Questions
+You may submit a public question to the reposiotry here: https://github.com/dd/issues
  
-Or you can email us directly at robyngraham01@gmail.com
+Or you can email us directly at dd
