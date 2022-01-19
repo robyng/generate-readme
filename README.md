@@ -20,7 +20,8 @@ You can use this to generate new node projects.
 View your newly generated README.md file in the output folder.
 
 View a walkthrough of how this app can be used:
-https://watch.screencastify.com/v/RUPLvstEEY4SqOGYZ2Nf
+<a href="https://watch.screencastify.com/v/eVyBXvlIG0myKsTWNvgf" target="_blank">Link to video</a>
+
 
 ## Installation
 Clone the files from this respository https://github.com/robyng/generate-readme-fast

@@ -31,15 +31,13 @@ const init = (answers) => {
  * [Tests](#tests)
  * [Questions](#questions)
  
-
- 
  ## Installation
  ${answers.install}
  
  ## Usage
  ${answers.usage}
 
- ### License
+ ## License
  ${answers.license}
  ${licenseText}
 
@@ -51,9 +49,9 @@ const init = (answers) => {
  ## Tests
  ${answers.tests}
  
-## Questions
+ ## Questions
 You may submit a public question to the reposiotry here: https://github.com/${answers.github}/issues
- 
+
 Or you can email us directly at ${answers.email}`;    
 
  };
