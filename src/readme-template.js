@@ -17,28 +17,29 @@ const init = (answers) => {
     }
  return `# ${answers.projectName} 
  ![Packagist License](https://img.shields.io/static/v1?label=License&message=${answers.license}&color=blue)
- 
+
+ ## Description 
+ ${answers.description}
+
+ Deployed at ${answers.deployed}
  
  ## Table of Contents
- * [Description](#description)
- * [Links](#links)
  * [Installation](#installation)
+ * [Usage](#Usage)
  * [Credits](#credits)
  * [License](#license)
  * [Questions](#questions)
  
- ## Description 
- ${answers.description}
- 
- ### Links
- 
- Deployed at ${answers.deployed}
+
  
  Repository at ${answers.repo}
  
  ### Installation
  ${answers.install}
  
+ ## Usage
+ ${answers.usage}
+
  ### Credits
  ${answers.contributers}
  

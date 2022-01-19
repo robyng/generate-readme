@@ -58,6 +58,19 @@ const questions = () => {
             }
         },
         {
+            type: 'input',
+            name: 'usage',
+            message: 'How do you use this app? Provide instructions for starting.(Required)',
+            validate: usageInput => {
+                if (usageInput) {
+                    return true;
+                } else {
+                    console.log ('How to use instructions required');
+                    return false;
+                }
+            }
+        },
+        {
             type: 'list',
             name: 'license',
             message: 'What license does this app use? (Default is None)',
