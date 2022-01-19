@@ -10,22 +10,32 @@
 * [Questions and Issues](#questions-and-issues)
 
 ## About 
-This node app helps speed up the creation of README.md files for your projects. Answer questions from the command line about your project and have the answers generate in a new README.md file. 
+This node application helps you write README.md files FASTER. 
+Instead of trying to remember how to structure your file just answer a series of questions that will generate a README.md file based on your answers. 
 
-You can use this app for all new projects that would benefit from an informational README.md file. Download Generate README File and then write node index on your command line to start the prompts. View your README.md file in the output folder.
+Answer these questions via command line. 
 
-Note: This README.md file was generated using this app.
+You can use this to generate new node projects. 
 
-### Links
-Repository at https://github.com/robyng/generate-readme
+View your newly generated README.md file in the output folder.
+
+View a walkthrough of how this app can be used:
+https://watch.screencastify.com/v/RUPLvstEEY4SqOGYZ2Nf
 
 ### Installation
-Clone the files from this respository.
+Clone the files from this respository https://github.com/robyng/generate-readme-fast
 CD into root of Generate-README folder.
-From command line type 'npm install inquirer'. 
-Then type 'node index' to start the README prompts.
+In your terminal type:
 
-Watch walkthrough: https://watch.screencastify.com/v/RUPLvstEEY4SqOGYZ2Nf
+     npm install 
+
+Then type:
+
+     'node index' 
+     
+This will start the application prompts.
+
+
 
 ### Credits
 Robyn Graham
@@ -40,6 +50,7 @@ Github profile: https://github.com/robyng
 
 Have any questions?
 
-Please email us at robyngraham01@gmail.com
+Email me directly at robyngraham01@gmail.com
 
-Please report issues to Robyn Graham via email at robyngraham01@gmail.com
+See any issues and want to contribute?
+Open new issue at https://github.com/robyng/generate-readme-fast/issues
